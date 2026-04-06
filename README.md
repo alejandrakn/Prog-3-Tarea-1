@@ -1,7 +1,7 @@
 Implementación de Tensor en C++
 
 Este proyecto implementa una clase ¨Tensor¨ en C++ desde cero, incluyendo operaciones básicas, transformaciones y una simulación simple de una red neuronal.
-
+```
 Estructura del proyecto:
 ├── Tensor.h
 ├── Tensor.cpp
@@ -10,18 +10,23 @@ Estructura del proyecto:
 ├── Sigmoid.h
 ├── main.cpp
 └── README.md
-
+```
 Requisitos:
 Compilador de C++
 Soporte para C++11 o superior
 
 Compilacion:
-En la terminal, ubicarse en la carpeta del proyecto y ejecutar:
 
+En la terminal, ubicarse en la carpeta del proyecto y ejecutar:
+```
+g++ -std=c++11 Tensor.cpp main.cpp -o programa
+
+```
 Ejecucion:
 Luego de compilar:
+```
 ./programa
-
+```
 Descripcion:
 El programa realiza:
 * Creación de tensores
@@ -45,5 +50,8 @@ El ¨main.cpp¨ implementa una red neuronal simple:
    * Activación: Sigmoid
 
 Salida esperada:
+```
 Red neuronal ejecutada correctamente
+```
+
 
